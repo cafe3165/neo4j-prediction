@@ -1,18 +1,10 @@
 package com.test.data.main.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.util.Assert;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.test.data.config.Neo4jConfig;
-import com.test.data.domain.East;
-import com.test.data.domain.Playoff;
-import com.test.data.domain.West;
-import com.test.data.repository.EastTeamRepository;
-import com.test.data.repository.WestTeamRepository;
+
 //import org.springframework.context.ContextConfiguration;
 
 
